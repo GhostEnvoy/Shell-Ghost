@@ -4,7 +4,7 @@ REM Simple clickable installer for Windows (user-scope, no admin)
 
 set "BIN=%USERPROFILE%\.ghost\bin"
 set "ZIP=%BIN%\ghost.zip"
-set "URL=https://github.com/Balanced-Libra/Shell-Ghost/releases/latest/download/ghost-in-the-shell-windows-x64.zip"
+set "URL=https://github.com/GhostEnvoy/Shell-Ghost/releases/latest/download/ghost-in-the-shell-windows-x64.tar.gz"
 
 echo Installing GhostShell to %BIN%...
 powershell -NoProfile -ExecutionPolicy Bypass -Command ^
